@@ -22,3 +22,6 @@ def order(conversation, memory=None):
     memory = ConversationBufferMemory()
     memory.save_context({"input": "hi"}, {"output": "whats up"})
     
+    
+# %%
+print('hello world')
